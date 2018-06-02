@@ -1,5 +1,5 @@
 import React from 'react';
-
+import classes from './Layout.css';
 // const Fragment = React.Fragment;
 const { Fragment } = React;
 
@@ -8,7 +8,7 @@ const Layout = (props) => {
     <Fragment>
       <div> toolbar , sidedrawer , backdrop </div>
 
-      <main> {props.children} </main>
+      <main className={classes.fo}>{props.children}</main>
     </Fragment>
   );
 };
