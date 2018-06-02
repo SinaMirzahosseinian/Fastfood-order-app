@@ -1,5 +1,7 @@
 import React from 'react';
-const Fragment = React.Fragment;
+
+// const Fragment = React.Fragment;
+const { Fragment } = React;
 
 const Layout = (props) => {
   return (
