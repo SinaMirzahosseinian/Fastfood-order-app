@@ -1,10 +1,12 @@
 import React, { Component } from "react";
-import Test from "./component/test";
+import Layout from "./components/Layout/Layout";
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Test />
+        <Layout>
+          <h4>Test</h4>
+        </Layout>
       </React.Fragment>
     );
   }
